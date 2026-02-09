@@ -37,6 +37,8 @@ header {
   width: 86%;
   padding: 10px 0;
   margin: 0 auto;
+  position: sticky;
+  top: 0;
 }
 .logo {
   display: flex;
@@ -496,10 +498,10 @@ footer .details-bar .theme {
   display: flex;
   gap: 20px;
 }
-footer .details-bar .theme p {
-  background-color: var(--primary-background-color);
-  border-radius: 20px;
-  padding: 4px 6px;
+footer .details-bar .theme .lang {
+  background-color: #26241E;
+  border-radius: 14px;
+  padding: 2px 16px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -508,9 +510,10 @@ footer .details-bar .theme p {
 }
 footer .details-bar .theme .icons {
   display: flex;
-  gap: 10px;
-  background-color: var(--primary-background-color);
+  gap: 18px;
+  justify-content: center;
+  background-color: #26241E;
   border-radius: 20px;
-  padding: 4px 6px;
+  padding: 6px 18px;
   font-size: 14px;
 }
